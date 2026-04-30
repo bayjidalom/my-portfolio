@@ -177,3 +177,71 @@ nav .menu a {
     color: #474747;
     font-size: 20px;
 }
+
+
+/* Skills Section styles */
+
+#skills {
+    padding-bottom: 130px;
+}
+
+.skills-container {
+    max-width: 71%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+
+.skills-heading {
+    text-align: center;
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+.skills-heading p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.skills-heading h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 16px;
+}
+
+.skills-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    gap: 24px;
+
+}
+
+.skills-card {
+    max-width: 267px;
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.075);
+    margin: 0 auto;
+}
+
+.skills-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skills-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skills-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 27px;
+}
