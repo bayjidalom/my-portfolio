@@ -112,3 +112,68 @@ nav .menu a {
     border: 1px solid #FD6E0A;
     margin-left: 8px;
 }
+
+
+
+/* About Section Styles */
+
+#about {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+
+}
+
+
+.about-container {
+    max-width: 71%;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    border: none;
+    border-radius: 24px;
+}
+
+.about-content {
+    padding: 130px 150px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 16px;
+}
+
+
+
+
+.about-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.about-card {
+    /* max-width: 161px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+
+}
+
+
+.about-card p {
+    font-weight: 700;
+}
+
+.about-card h3 {
+    color: #474747;
+    font-size: 20px;
+}
